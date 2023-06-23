@@ -1,0 +1,88 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+    .inputs-div {
+        background-color: #107DAC;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 30px;
+        border-style: none;
+
+        .app-heading {
+            color: #A9DDF3;
+        }
+
+
+        .input {
+            border-radius: 4px;
+            border-style: none;
+            width: 250px;
+            height: 30px;
+
+        }
+
+        .submit-btn {
+
+            border-radius: 10px;
+            padding: 5px;
+            border-style: none;
+            cursor: pointer;
+
+
+            &:hover {
+                transform: scale(1.05);
+                background-color: rgb(118, 204, 205);
+                color: white;
+            }
+
+
+        }
+
+        .submitted-field {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+
+
+            h2 {
+                color: #A9DDF3;
+                font-size: 1.25rem;
+            }
+
+
+            .delete-btn {
+                border-radius: 10px;
+                padding: 5px;
+                border-style: none;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.05);
+                    background-color: rgb(118, 204, 205);
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+
+}
